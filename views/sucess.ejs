@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Kanit:ital,wght@0,400;0,500;1,400&family=Poppins:wght@200&family=Righteous&family=Teko:wght@300&display=swap" rel="stylesheet">
+    <link href="css/styles1.css" rel="stylesheet" type="text/css">
+    <title>We</title>
+</head>
+
+<body>
+    <div class="cont">
+        <img src=<%=image%> alt="">
+        <h1>Temperature in <%=text%></h1>
+                <h1><%=temp%> ℃</h1>
+
+        <p>Weather desciprtion : <%= desc%></p>
+        <form action="/sucess" method="post">
+            <button class="b" type="submit">Go back</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

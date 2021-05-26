@@ -1,0 +1,76 @@
+@media screen and (max-width:624px){
+    .cont{
+        position: absolute;
+        left:0;
+    }
+}
+
+body{
+    background-image: url("/images/pexels-pixabay-531756.jpg");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
+    text-align: center;
+}
+.cont{
+    width: 400px;
+    margin-top: 150px;
+    display:inline-block;
+    background-color:rgba(203, 226, 236, 0.801);
+    border-radius: 10px;
+    position: absolute;
+    left:35vw;
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+    color: rgb(7, 60, 139);
+}
+
+input:hover{
+    box-shadow: 0px 0px 5px #61C5FA;
+    border-color: #5AB0DB;
+}
+
+input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.f
+{
+    padding: 20px;
+}
+
+.l
+{
+    /* padding: 10px; */
+    margin: 10px;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+}
+
+.i
+{
+    /* padding: 10px; */
+    margin: 10px;
+    size: 20px;
+   box-sizing: border-box;
+
+}
+
+.b
+{
+    /* padding: 10px; */
+    margin: 10px;
+    cursor: pointer;
+    background-color:rgb(91, 148, 235);
+    color: white;
+    font-size: 18px;
+    font-family: 'Kanit', sans-serif;
+    border: #5AB0DB;
+    border-radius: 5px;
+
+}
+
+
